@@ -2,6 +2,22 @@
 Changelog for package ridgeback_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2018-04-12)
+------------------
+
+0.2.0 (2018-04-12)
+------------------
+* Changed to in-order xacro parsing
+* Updated rolling window for odom responsiveness.  Minor changes to control and urdf syntax for kinetic
+* Updated to Package format 2.
+* Contributors: Dave Niewinski, Tony Baltovski
+
+0.1.10 (2017-06-26)
+-------------------
+* Updated the visual meshes to make them lighter and prettier.  More accurate collision mesh made for tight areas
+* Used sick-s300 xacro for simulation.
+* Contributors: Dave Niewinski, Tony Baltovski
+
 0.1.9 (2017-04-17)
 ------------------
 * Fixed malformed stl meshes.

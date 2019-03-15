@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ridgeback_bringup</name>
+  <name>ridgeback_robot</name>
   <version>0.2.2</version>
-  <description>Scripts for installing Ridgeback's robot software.</description>
+  <description>Metapackage of software to install on Ridgeback.</description>
 
   <author email="mpurvis@clearpathrobotics.com">Mike Purvis</author>
   <author email="tbaltovski@clearpathrobotics.com">Tony Baltovski</author>
@@ -15,15 +15,10 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>cob_sick_s300</exec_depend>
-  <exec_depend>lms1xx</exec_depend>
-  <exec_depend>microstrain_3dmgx2_imu</exec_depend>
-  <exec_depend>ridgeback_base</exec_depend>
-  <exec_depend version_gte="0.1.1">robot_upstart</exec_depend>
-  <exec_depend>urg_node</exec_depend>
-
-  <test_depend>roslaunch</test_depend>
+  <exec_depend>ridgeback_bringup</exec_depend>
+  <exec_depend>ridgeback_firmware</exec_depend>
 
   <export>
+    <metapackage />
   </export>
 </package>
