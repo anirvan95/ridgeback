@@ -66,4 +66,3 @@ if [[ -r $CAL_FILE ]]; then
     echo "Restart ROS service to begin using saved calibration."
   fi
 fi
-
