@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- URDF / SRDF parameters -->
+  <arg name="ridgeback_config" default="dual_hokuyo_lasers" />
+ 
+  <include file="$(find ridgeback_intel_description)/launch/description_intel.launch">
+    <arg name="config" value="$(arg ridgeback_config)" />
+  </include>
+
+
+  
+
+</launch>
