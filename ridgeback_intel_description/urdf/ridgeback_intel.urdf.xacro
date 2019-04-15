@@ -300,20 +300,21 @@
 
 
 <!-- Constants for camera mount  dimensions -->
-  <xacro:property name="mass" value="0.5" /> <!-- arbitrary value for mass -->
-  <xacro:property name="width" value="0.065" /> <!-- Radius of the camera mount -->
-  <xacro:property name="height" value="0.4" /> <!--Height of the camera mount -->
-  <xacro:property name="camera_length" value="0.09" /> <!-- Size of square 'camera' box -->
-  <xacro:property name="camera_width" value="0.025" /> <!-- Space btw top of beam and the each joint -->
-  <xacro:property name="angle_diff" value="${pi/3}" /> <!-- Space btw top of beam and the each joint -->
-  <xacro:property name="angle_tilt_1" value="${pi/6}" /> <!-- Space btw top of beam and the each joint -->
-  <xacro:property name="angle_tilt_2" value="${pi/36}" /> <!-- Space btw top of beam and the each joint -->
-  <xacro:property name="angle_tilt_3" value="${pi/36}" /> <!-- Space btw top of beam and the each joint -->
+<xacro:property name="mass" value="0.5" /> <!-- arbitrary value for mass -->
+<xacro:property name="width" value="0.02" /> <!-- Radius of the camera mount -->
+<xacro:property name="height" value="0.2" /> <!--Height of the camera mount -->
+<xacro:property name="camera_length" value="0.09" /> <!-- Size of square 'camera' box -->
+<xacro:property name="camera_width" value="0.03" /> <!-- Space btw top of beam and the each joint -->
+<xacro:property name="angle_diff" value="${pi/3}" /> <!-- Space btw top of beam and the each joint -->
+<xacro:property name="angle_tilt_1" value="0" /> <!-- Space btw top of beam and the each joint -->
+<xacro:property name="angle_tilt_2" value="0" /> <!-- Space btw top of beam and the each joint -->
+<xacro:property name="angle_tilt_3" value="0" /> <!-- Space btw top of beam and the each joint -->
+
 
   <!-- Import all Gazebo-customization elements, including Gazebo colors -->
   <xacro:include filename="$(find ridgeback_intel_description)/urdf/multi_d435.gazebo" />
-  
-   
+
+
   <joint name="ridgeback_to_mount" type="fixed">
     <parent link="mid_mount" />
     <child link="multi_d435_mount" />
@@ -333,7 +334,7 @@
    <visual>
       <origin xyz="0 0 0" rpy="0 0 ${pi/6}"/>
       <geometry>
-	       <mesh scale= "0.007 0.007 0.01" filename="package://ridgeback_intel_description/meshes/d435_mount.dae"/>
+	       <mesh scale= "0.003 0.003 0.005" filename="package://ridgeback_intel_description/meshes/d435_mount.dae"/>
       </geometry>
     </visual>
 
