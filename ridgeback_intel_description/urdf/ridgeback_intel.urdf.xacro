@@ -318,9 +318,9 @@
 
 
   <joint name="ridgeback_to_mount" type="fixed">
-    <parent link="mid_mount" />
+    <parent link="base_link" />
     <child link="mount_tripod" />
-    <origin rpy="0 0 0" xyz="0.2 0 0.45" />
+    <origin rpy="0 0 0" xyz="0.215 0 1.21" />
   </joint>
 
 
@@ -336,7 +336,7 @@
         <visual>
           <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
           <geometry>
-    	       <mesh filename="package://multi_d435_description/meshes/tripod_simplified.STL"/>
+    	       <mesh filename="package://ridgeback_intel_description/meshes/tripod_simplified.STL"/>
           </geometry>
 
           <material name="orange"/>
@@ -372,7 +372,7 @@
        <visual>
           <origin xyz="0 0 0" rpy="0 0 ${pi/6}"/>
           <geometry>
-    	       <mesh filename="package://multi_d435_description/meshes/D435x6_mounting-support.STL"/>
+    	       <mesh filename="package://ridgeback_intel_description/meshes/D435x6_mounting-support.STL"/>
           </geometry>
         </visual>
 
@@ -418,7 +418,7 @@
         <visual>
           <origin xyz="0 0 0" rpy="${pi/2} 0 ${pi/2}"/>
           <geometry>
-    	       <mesh filename="package://multi_d435_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
+    	       <mesh filename="package://ridgeback_intel_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
           </geometry>
           <material name="red"/>
         </visual>
@@ -442,7 +442,7 @@
         <visual>
           <origin xyz="0 0 0" rpy="${pi/2} 0 ${pi/2}"/>
           <geometry>
-    	       <mesh filename="package://multi_d435_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
+    	       <mesh filename="package://ridgeback_intel_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
           </geometry>
           <material name="red"/>
         </visual>
@@ -466,7 +466,7 @@
         <visual>
           <origin xyz="0 0 0" rpy="${pi/2} 0 ${pi/2}"/>
           <geometry>
-    	       <mesh filename="package://multi_d435_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
+    	       <mesh filename="package://ridgeback_intel_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
           </geometry>
           <material name="red"/>
         </visual>
@@ -477,7 +477,47 @@
         </inertial>
       </link>
 
-     
+  <!-- generate an optical frame http://www.ros.org/reps/rep-0103.html#suffix-frames
+      so that ros and opencv can operate on the camera frame correctly -->
+    <joint name="camera_optical_joint_1" type="fixed">
+    <!-- these values have to be these values otherwise the gazebo camera image
+        won't be aligned properly with the frame it is supposedly originating from -->
+    <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+    <parent link="camera1_link"/>
+    <child link="camera_link_optical_1"/>
+  </joint>
+
+  <link name="camera_link_optical_1">
+  </link>
+
+
+  <!-- generate an optical frame http://www.ros.org/reps/rep-0103.html#suffix-frames
+      so that ros and opencv can operate on the camera frame correctly -->
+  <joint name="camera_optical_joint_2" type="fixed">
+    <!-- these values have to be these values otherwise the gazebo camera image
+        won't be aligned properly with the frame it is supposedly originating from -->
+    <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+    <parent link="camera2_link"/>
+    <child link="camera_link_optical_2"/>
+  </joint>
+
+  <link name="camera_link_optical_2">
+  </link>
+
+
+  <!-- generate an optical frame http://www.ros.org/reps/rep-0103.html#suffix-frames
+      so that ros and opencv can operate on the camera frame correctly -->
+  <joint name="camera_optical_joint_3" type="fixed">
+    <!-- these values have to be these values otherwise the gazebo camera image
+        won't be aligned properly with the frame it is supposedly originating from -->
+    <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+    <parent link="camera3_link"/>
+    <child link="camera_link_optical_3"/>
+  </joint>
+
+  <link name="camera_link_optical_3">
+</link>     
+  
   <!-- Bring in simulation data for Gazebo. -->
   <xacro:include filename="$(find ridgeback_intel_description)/urdf/ridgeback_intel.gazebo" />
 
