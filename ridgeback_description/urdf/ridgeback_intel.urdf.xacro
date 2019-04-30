@@ -32,7 +32,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="${PI/2} 0 0"/>
         <geometry>
-          <mesh filename="package://ridgeback_intel_description/meshes/wheel.stl"/>
+          <mesh filename="package://ridgeback_description/meshes/wheel.stl"/>
         </geometry>
         <material name="black" />
       </visual>
@@ -76,7 +76,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="${PI/2} 0 ${PI/2}" />
         <geometry>
-          <mesh filename="package://ridgeback_intel_description/meshes/rocker.stl"/>
+          <mesh filename="package://ridgeback_description/meshes/rocker.stl"/>
         </geometry>
         <material name="black" />
       </visual>
@@ -126,14 +126,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://ridgeback_intel_description/meshes/body.stl"/>
+        <mesh filename="package://ridgeback_description/meshes/body.stl"/>
       </geometry>
       <material name="black" />
     </visual>
     <collision>
       <origin xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://ridgeback_intel_description/meshes/body-collision.stl"/>
+        <mesh filename="package://ridgeback_description/meshes/body-collision.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -161,7 +161,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 ${PI}" />
       <geometry>
-        <mesh filename="package://ridgeback_intel_description/meshes/side-cover.stl"/>
+        <mesh filename="package://ridgeback_description/meshes/side-cover.stl"/>
       </geometry>
       <material name="yellow" />
     </visual>
@@ -170,7 +170,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://ridgeback_intel_description/meshes/side-cover.stl"/>
+        <mesh filename="package://ridgeback_description/meshes/side-cover.stl"/>
       </geometry>
       <material name="yellow" />
     </visual>
@@ -186,7 +186,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://ridgeback_intel_description/meshes/end-cover.stl" />
+        <mesh filename="package://ridgeback_description/meshes/end-cover.stl" />
       </geometry>
       <material name="black" />
     </visual>
@@ -202,7 +202,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 ${PI}" />
       <geometry>
-        <mesh filename="package://ridgeback_intel_description/meshes/end-cover.stl" />
+        <mesh filename="package://ridgeback_description/meshes/end-cover.stl" />
       </geometry>
       <material name="black" />
     </visual>
@@ -223,7 +223,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://ridgeback_intel_description/meshes/lights.stl" />
+        <mesh filename="package://ridgeback_description/meshes/lights.stl" />
       </geometry>
       <material name="white" />
     </visual>
@@ -232,7 +232,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 ${PI}" />
       <geometry>
-        <mesh filename="package://ridgeback_intel_description/meshes/lights.stl" />
+        <mesh filename="package://ridgeback_description/meshes/lights.stl" />
       </geometry>
       <material name="red" />
     </visual>
@@ -248,14 +248,14 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://ridgeback_intel_description/meshes/top.stl" />
+        <mesh filename="package://ridgeback_description/meshes/top.stl" />
       </geometry>
       <material name="black" />
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://ridgeback_intel_description/meshes/top.stl"/>
+        <mesh filename="package://ridgeback_description/meshes/top.stl"/>
       </geometry>
     </collision>
   </link>
@@ -270,7 +270,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 ${PI/2} 0" />
       <geometry>
-        <mesh filename="package://ridgeback_intel_description/meshes/axle.stl" />
+        <mesh filename="package://ridgeback_description/meshes/axle.stl" />
       </geometry>
       <material name="black" />
     </visual>
@@ -314,7 +314,7 @@
    <xacro:property name="angle_tilt_3" value="0" /> <!-- Space btw top of beam and the each joint -->
 
    <!-- Import all Gazebo-customization elements, including Gazebo colors -->
-  <xacro:include filename="$(find ridgeback_intel_description)/urdf/multi_d435.gazebo" />
+  <xacro:include filename="$(find ridgeback_description)/urdf/multi_d435.gazebo" />
 
 
   <joint name="ridgeback_to_mount" type="fixed">
@@ -336,7 +336,7 @@
         <visual>
           <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
           <geometry>
-    	       <mesh filename="package://ridgeback_intel_description/meshes/tripod_simplified.STL"/>
+    	       <mesh filename="package://ridgeback_description/meshes/tripod_simplified.STL"/>
           </geometry>
 
           <material name="orange"/>
@@ -372,7 +372,7 @@
        <visual>
           <origin xyz="0 0 0" rpy="0 0 ${pi/6}"/>
           <geometry>
-    	       <mesh filename="package://ridgeback_intel_description/meshes/D435x6_mounting-support.STL"/>
+    	       <mesh filename="package://ridgeback_description/meshes/D435x6_mounting-support.STL"/>
           </geometry>
         </visual>
 
@@ -418,7 +418,7 @@
         <visual>
           <origin xyz="0 0 0" rpy="${pi/2} 0 ${pi/2}"/>
           <geometry>
-    	       <mesh filename="package://ridgeback_intel_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
+    	       <mesh filename="package://ridgeback_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
           </geometry>
           <material name="red"/>
         </visual>
@@ -442,7 +442,7 @@
         <visual>
           <origin xyz="0 0 0" rpy="${pi/2} 0 ${pi/2}"/>
           <geometry>
-    	       <mesh filename="package://ridgeback_intel_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
+    	       <mesh filename="package://ridgeback_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
           </geometry>
           <material name="red"/>
         </visual>
@@ -466,7 +466,7 @@
         <visual>
           <origin xyz="0 0 0" rpy="${pi/2} 0 ${pi/2}"/>
           <geometry>
-    	       <mesh filename="package://ridgeback_intel_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
+    	       <mesh filename="package://ridgeback_description/meshes/Intel_RealSense_Depth_Camera_D435.STL"/>
           </geometry>
           <material name="red"/>
         </visual>
@@ -519,12 +519,12 @@
 </link>     
   
   <!-- Bring in simulation data for Gazebo. -->
-  <xacro:include filename="$(find ridgeback_intel_description)/urdf/ridgeback_intel.gazebo" />
+  <xacro:include filename="$(find ridgeback_description)/urdf/ridgeback_intel.gazebo" />
 
   <!-- Optional standard accessories, including their simulation data. The rendering
        of these into the final description is controlled by optenv variables, which
        default each one to off.-->
-  <xacro:include filename="$(find ridgeback_intel_description)/urdf/accessories.urdf.xacro" />
+  <xacro:include filename="$(find ridgeback_description)/urdf/accessories.urdf.xacro" />
 
   <!-- Optional custom includes. -->
   <xacro:include filename="$(optenv RIDGEBACK_URDF_EXTRAS empty.urdf)" />
