@@ -4380,7 +4380,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/body-collision.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/body-collision.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -4444,7 +4444,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/top.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/top.stl</uri>
             </mesh>
           </geometry>
           <surface>
@@ -4582,7 +4582,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/body.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/body.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4597,7 +4597,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/axle.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/axle.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4612,7 +4612,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/rocker.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/rocker.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4627,7 +4627,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/end-cover.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/end-cover.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4642,7 +4642,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/ust-10lx.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_description/meshes/ust-10lx.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4657,7 +4657,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/lights.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/lights.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4672,7 +4672,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/side-cover.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/side-cover.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4687,7 +4687,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/end-cover.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/end-cover.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4702,7 +4702,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/ust-10lx.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_description/meshes/ust-10lx.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4717,7 +4717,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/lights.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/lights.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4732,7 +4732,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/side-cover.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/side-cover.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4747,7 +4747,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/top.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/top.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -4762,7 +4762,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/tripod_simplified.STL</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/tripod_simplified.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4771,7 +4771,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/D435x6_mounting-support.STL</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/D435x6_mounting-support.STL</uri>
             </mesh>
           </geometry>
         </visual>
@@ -4780,7 +4780,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/Intel_RealSense_Depth_Camera_D435.STL</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/Intel_RealSense_Depth_Camera_D435.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -4795,7 +4795,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/Intel_RealSense_Depth_Camera_D435.STL</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/Intel_RealSense_Depth_Camera_D435.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -4810,7 +4810,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/Intel_RealSense_Depth_Camera_D435.STL</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/Intel_RealSense_Depth_Camera_D435.STL</uri>
             </mesh>
           </geometry>
           <material>
@@ -5073,7 +5073,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/rocker.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/rocker.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -5150,7 +5150,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/wheel.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/wheel.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -5225,7 +5225,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/wheel.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/wheel.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -5300,7 +5300,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/wheel.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/wheel.stl</uri>
             </mesh>
           </geometry>
           <material>
@@ -5375,7 +5375,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/thib/ridgeback-intel_ws/src/ridgeback/ridgeback_description/meshes/wheel.stl</uri>
+              <uri>/home/rpl/ridgeback_ws/src/ridgeback/ridgeback_intel_description/meshes/wheel.stl</uri>
             </mesh>
           </geometry>
           <material>

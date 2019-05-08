@@ -4,7 +4,7 @@
   <!-- URDF / SRDF parameters -->
   <arg name="ridgeback_config" default="dual_hokuyo_lasers" />
  
-  <include file="$(find ridgeback_description)/launch/description_intel.launch">
+  <include file="$(find ridgeback_intel_description)/launch/description_intel.launch">
     <arg name="config" value="$(arg ridgeback_config)" />
   </include>
 
@@ -23,6 +23,7 @@
     <arg name="camera" value="camera3" />
     <arg name="serial_no" value="828112072458" />
   </include>
+
 
  <!-- sync rgb/depth images per camera -->
   <group ns="camera1">

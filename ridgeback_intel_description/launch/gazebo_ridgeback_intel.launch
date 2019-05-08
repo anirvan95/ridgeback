@@ -20,7 +20,7 @@
   </include>
 
   <!-- Load Ridgeback's description, controllers, and teleop nodes. -->
-  <include file="$(find ridgeback_description)/launch/description_intel.launch">
+  <include file="$(find ridgeback_intel_description)/launch/description_intel.launch">
     <arg name="config" value="$(arg config)" />
   </include>
   <include file="$(find ridgeback_control)/launch/control.launch" />
